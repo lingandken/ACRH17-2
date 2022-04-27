@@ -13,10 +13,10 @@
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
-git clone https://github.com/coolsnowwolf/lede
-cp ./lede/target/linux/ipq40xx/patches-5.4/999-ipq40xx-unlock-cpu-frequency.patch ./target/linux/ipq40xx/patches-5.4/
-git clone https://github.com/coolsnowwolf/luci
-cp -r ./luci/applications/luci-app-cpufreq/ ./package/
+#git clone https://github.com/coolsnowwolf/lede
+#cp ./lede/target/linux/ipq40xx/patches-5.4/999-ipq40xx-unlock-cpu-frequency.patch ./target/linux/ipq40xx/patches-5.4/
+#git clone https://github.com/coolsnowwolf/luci
+#cp -r ./luci/applications/luci-app-cpufreq/ ./package/
 
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
